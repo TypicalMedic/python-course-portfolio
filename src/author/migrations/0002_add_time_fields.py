@@ -16,11 +16,15 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="Author",
             name="created_at",
-            field=models.DateTimeField(auto_now_add=True, verbose_name="Время создания записи"),                
+            field=models.DateTimeField(
+                auto_now_add=True, verbose_name="Время создания записи"
+            ),
         ),
-        migrations.AddField( 
+        migrations.AddField(
             model_name="Author",
             name="updated_at",
-            field=models.DateTimeField(auto_now=True, verbose_name="Время обновления записи"),
+            field=models.DateTimeField(
+                auto_now=True, verbose_name="Время обновления записи"
+            ),
         ),
     ]

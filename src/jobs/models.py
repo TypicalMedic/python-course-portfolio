@@ -27,7 +27,7 @@ class Job(TimeStampMixin):
         verbose_name="Подробное описание",
         help_text="Подробное описание выполненной работы",
     )
-    
+
     def summary(self) -> str:
         """
         Краткое содержание сообщения.

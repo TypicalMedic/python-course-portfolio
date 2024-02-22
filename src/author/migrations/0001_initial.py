@@ -45,7 +45,7 @@ class Migration(migrations.Migration):
                 ),
             ],
             options={
-                "verbose_name": "Информация об авторе",                
+                "verbose_name": "Информация об авторе",
             },
         ),
     ]
